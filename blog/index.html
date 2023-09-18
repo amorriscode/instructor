@@ -1664,13 +1664,16 @@
 </span><span id="__span-6-21"><a id="__codelineno-6-21" name="__codelineno-6-21" href="#__codelineno-6-21"></a><span class="p">}</span>
 </span></code></pre></div>
 <p>Notice that we have a list of queries, that route to different search backends, email and calendar. We can even dispatch them async to be as performance as possible. Not only do we dispatch to different backends (that we have no control over), but you are likely going to render them to the user differently as well, perhaps you want to summarize the emails in text, but you want to render the calendar events as a list that they can scroll across on a mobile app.</p>
+<div class="admonition note">
+<p class="admonition-title">Can I used framework X?</p>
+<p>I get this question many times, but its just code, within these dispatchs you can do whatever you want. You can use <code>input()</code> to ask the user for more information, make a post request, call a Langchain agent or LLamaindex query engine to get more information, the sky is the limit.</p>
+</div>
 <p>Both of these examples show case how both search providors and consumers can use <code>instructor</code> to model their systems. This is a powerful pattern that allows you to build a system that can be used by anyone, and can be used to build a LLM layer, from scratch, in front of any arbitrary backend.</p>
 <h3 id="conclusion"><a class="toclink" href="2023/09/17/rag-is-more-than-just-embedding-search/#conclusion">Conclusion</a></h3>
 <p>This isnt about fancy embedding tricks, its just plain old information retrival and query understanding. The beauty of instructor is that it simplifies modeling the complex and lets you define the output of the language model, the prompts, and the payload we send to the backend in a single place.</p>
 <h3 id="whats-next"><a class="toclink" href="2023/09/17/rag-is-more-than-just-embedding-search/#whats-next">What's Next?</a></h3>
-<p>With <code>instructor</code>, you're not just working with extraction of structured data, you're building a model of a system and presenting it to the language model. It super charges function calling to reason about multiple calls to many systems in a pythonic way.</p>
-<p>But better structured output is just the beginning. The untapped goldmine is in the usage, not the tool. Collaboration between experts and AI engineers is what will bring domain-specific insights, but how do you distill this wisdom into tool use? </p>
-<p>I'm building a platform that fosters collaboration between the two, making it easier to iterate on prompts or even create a gold label dataset and finetune the language models themselves from real-world expertise. Interested? Visit <a href="https://useinstructor.com">useinstructor.com</a> and take our survey. Together, let's create tools that are as brilliant as the minds using them.</p>
+<p><code>instructor</code> isn't just about data extraction, It's building a model, and presenting it to the LLM. Structured output is just the beginning. The untapped goldmine is skilled use of tools and apis. </p>
+<p>I believe collaboration between experts users and AI engineers is what will bring out that expertise. If you're interested, visit <a href="https://useinstructor.com">useinstructor.com</a> and take our survey. Together, let's create tools that are as brilliant as the minds that use them.</p>
     <nav class="md-post__action">
       <a href="2023/09/17/rag-is-more-than-just-embedding-search/">
         Continue reading
