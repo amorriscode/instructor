@@ -13,10 +13,6 @@
         <link rel="canonical" href="https://jxnl.github.io/instructor/openai_schema/">
       
       
-        <link rel="prev" href="../cli/finetune/">
-      
-      
-        <link rel="next" href="../api_multitask/">
       
       
         
@@ -27,7 +23,7 @@
     
     
       
-        <title>OpenAISchema - Instructor (openai_function_call)</title>
+        <title>OpenAI Schema - Instructor (openai_function_call)</title>
       
     
     
@@ -73,7 +69,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="OpenAISchema - Instructor (openai_function_call)" />
+<meta property="og:title" content="OpenAI Schema - Instructor (openai_function_call)" />
 <meta property="og:description" content="Enhancing OpenAI function calling with Pydantic" />
 <meta property="og:image" content="https://jxnl.github.io/instructor/assets/images/social/openai_schema.png" />
 <meta property="og:image:type" content="image/png" />
@@ -81,7 +77,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://jxnl.github.io/instructor/openai_schema/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter.title" content="OpenAISchema - Instructor (openai_function_call)" />
+<meta property="twitter.title" content="OpenAI Schema - Instructor (openai_function_call)" />
 <meta property="twitter:description" content="Enhancing OpenAI function calling with Pydantic" />
 <meta property="twitter:image" content="https://jxnl.github.io/instructor/assets/images/social/openai_schema.png" />
 </head>
@@ -139,7 +135,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OpenAISchema
+              OpenAI Schema
             
           </span>
         </div>
@@ -294,13 +290,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../api/" class="md-tabs__link">
           
   
   API Reference
@@ -701,7 +695,7 @@
   <span class="md-ellipsis">
     
   
-    Cookbook
+    Overview
   
 
     
@@ -1169,19 +1163,19 @@
       
   
   
-    
-  
   
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
         
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
@@ -1200,7 +1194,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1215,198 +1209,15 @@
                 
   
   
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    
-  
-    OpenAISchema
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    OpenAISchema
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#prompt-placement" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Prompt Placement
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#structured-extraction" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Structured Extraction
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#code-reference" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Reference
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#instructor.function_calls" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        function_calls
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#instructor.function_calls.OpenAISchema" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenAISchema
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="OpenAISchema">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#instructor.function_calls.OpenAISchema.openai_schema" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        openai_schema
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#instructor.function_calls.OpenAISchema.from_response" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        from_response()
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#instructor.function_calls.openai_function" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        openai_function
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="openai_function">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#instructor.function_calls.openai_function.from_response" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        from_response()
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
   
     <li class="md-nav__item">
-      <a href="../api_multitask/" class="md-nav__link">
+      <a href="../api/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     
   
-    MultiTask
+    Core Library
   
 
     
@@ -1432,7 +1243,7 @@
   <span class="md-ellipsis">
     
   
-    Introduction: Writing Prompts
+    Prompting DSL: Intro
   
 
     
@@ -1458,7 +1269,7 @@
   <span class="md-ellipsis">
     
   
-    Prompting Templates
+    Prompting DSL Reference
   
 
     
@@ -1721,6 +1532,28 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#instructor.function_calls.OpenAISchema--usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructor.function_calls.OpenAISchema--result" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Result
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#instructor.function_calls.OpenAISchema.openai_schema" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1877,6 +1710,36 @@
           <p class="doc doc-class-bases">
             Bases: <code><span title="pydantic.BaseModel">BaseModel</span></code></p>
 
+  
+      <p>Augments a Pydantic model with OpenAI's schema for function calling</p>
+<p>This class augments a Pydantic model with OpenAI's schema for function calling. The schema is generated from the model's signature and docstring. The schema can be used to validate the response from OpenAI's API and extract the function call.</p>
+<h4 id="instructor.function_calls.OpenAISchema--usage">Usage</h4>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span> <span class="nn">instructor</span> <span class="kn">import</span> <span class="n">OpenAISchema</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">class</span> <span class="nc">User</span><span class="p">(</span><span class="n">OpenAISchema</span><span class="p">):</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">age</span><span class="p">:</span> <span class="nb">int</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="n">completion</span> <span class="o">=</span> <span class="n">openai</span><span class="o">.</span><span class="n">ChatCompletion</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    <span class="n">model</span><span class="o">=</span><span class="s2">&quot;gpt-3.5-turbo&#39;,</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    <span class="n">messages</span><span class="o">=</span><span class="p">[{</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>        <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Jason is 20 years old&quot;</span><span class="p">,</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>        <span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    <span class="p">}],</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    <span class="n">functions</span><span class="o">=</span><span class="p">[</span><span class="n">User</span><span class="o">.</span><span class="n">openai_schema</span><span class="p">],</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    <span class="n">function_call</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="n">User</span><span class="o">.</span><span class="n">openai_schema</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">]},</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="p">)</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="n">user</span> <span class="o">=</span> <span class="n">User</span><span class="o">.</span><span class="n">from_response</span><span class="p">(</span><span class="n">completion</span><span class="p">)</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="nb">print</span><span class="p">(</span><span class="n">user</span><span class="o">.</span><span class="n">model_dump</span><span class="p">())</span>
+</span></code></pre></div>
+<h4 id="instructor.function_calls.OpenAISchema--result">Result</h4>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>{
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    &quot;name&quot;: &quot;Jason Liu&quot;,
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    &quot;age&quot;: 20,
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>}
+</span></code></pre></div>
 
             <details class="quote">
               <summary>Source code in <code>instructor/function_calls.py</code></summary>
@@ -1948,75 +1811,155 @@
 <span class="normal"><a href="#__codelineno-0-190">190</a></span>
 <span class="normal"><a href="#__codelineno-0-191">191</a></span>
 <span class="normal"><a href="#__codelineno-0-192">192</a></span>
-<span class="normal"><a href="#__codelineno-0-193">193</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-125"><a id="__codelineno-0-125" name="__codelineno-0-125"></a><span class="k">class</span> <span class="nc">OpenAISchema</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-</span><span id="__span-0-126"><a id="__codelineno-0-126" name="__codelineno-0-126"></a>    <span class="nd">@classmethod</span>
-</span><span id="__span-0-127"><a id="__codelineno-0-127" name="__codelineno-0-127"></a>    <span class="nd">@property</span>
-</span><span id="__span-0-128"><a id="__codelineno-0-128" name="__codelineno-0-128"></a>    <span class="k">def</span> <span class="nf">openai_schema</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
-</span><span id="__span-0-129"><a id="__codelineno-0-129" name="__codelineno-0-129"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="__span-0-130"><a id="__codelineno-0-130" name="__codelineno-0-130"></a><span class="sd">        Return the schema in the format of OpenAI&#39;s schema as jsonschema</span>
-</span><span id="__span-0-131"><a id="__codelineno-0-131" name="__codelineno-0-131"></a>
-</span><span id="__span-0-132"><a id="__codelineno-0-132" name="__codelineno-0-132"></a><span class="sd">        Note:</span>
-</span><span id="__span-0-133"><a id="__codelineno-0-133" name="__codelineno-0-133"></a><span class="sd">            Its important to add a docstring to describe how to best use this class, it will be included in the description attribute and be part of the prompt.</span>
-</span><span id="__span-0-134"><a id="__codelineno-0-134" name="__codelineno-0-134"></a>
-</span><span id="__span-0-135"><a id="__codelineno-0-135" name="__codelineno-0-135"></a><span class="sd">        Returns:</span>
-</span><span id="__span-0-136"><a id="__codelineno-0-136" name="__codelineno-0-136"></a><span class="sd">            model_json_schema (dict): A dictionary in the format of OpenAI&#39;s schema as jsonschema</span>
-</span><span id="__span-0-137"><a id="__codelineno-0-137" name="__codelineno-0-137"></a><span class="sd">        &quot;&quot;&quot;</span>
-</span><span id="__span-0-138"><a id="__codelineno-0-138" name="__codelineno-0-138"></a>        <span class="n">schema</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">model_json_schema</span><span class="p">()</span>
-</span><span id="__span-0-139"><a id="__codelineno-0-139" name="__codelineno-0-139"></a>        <span class="n">docstring</span> <span class="o">=</span> <span class="n">parse</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="vm">__doc__</span> <span class="ow">or</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
-</span><span id="__span-0-140"><a id="__codelineno-0-140" name="__codelineno-0-140"></a>        <span class="n">parameters</span> <span class="o">=</span> <span class="p">{</span>
-</span><span id="__span-0-141"><a id="__codelineno-0-141" name="__codelineno-0-141"></a>            <span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">schema</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">k</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;title&quot;</span><span class="p">,</span> <span class="s2">&quot;description&quot;</span><span class="p">)</span>
-</span><span id="__span-0-142"><a id="__codelineno-0-142" name="__codelineno-0-142"></a>        <span class="p">}</span>
-</span><span id="__span-0-143"><a id="__codelineno-0-143" name="__codelineno-0-143"></a>        <span class="k">for</span> <span class="n">param</span> <span class="ow">in</span> <span class="n">docstring</span><span class="o">.</span><span class="n">params</span><span class="p">:</span>
-</span><span id="__span-0-144"><a id="__codelineno-0-144" name="__codelineno-0-144"></a>            <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">:=</span> <span class="n">param</span><span class="o">.</span><span class="n">arg_name</span><span class="p">)</span> <span class="ow">in</span> <span class="n">parameters</span><span class="p">[</span><span class="s2">&quot;properties&quot;</span><span class="p">]</span> <span class="ow">and</span> <span class="p">(</span>
-</span><span id="__span-0-145"><a id="__codelineno-0-145" name="__codelineno-0-145"></a>                <span class="n">description</span> <span class="o">:=</span> <span class="n">param</span><span class="o">.</span><span class="n">description</span>
-</span><span id="__span-0-146"><a id="__codelineno-0-146" name="__codelineno-0-146"></a>            <span class="p">):</span>
-</span><span id="__span-0-147"><a id="__codelineno-0-147" name="__codelineno-0-147"></a>                <span class="k">if</span> <span class="s2">&quot;description&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">parameters</span><span class="p">[</span><span class="s2">&quot;properties&quot;</span><span class="p">][</span><span class="n">name</span><span class="p">]:</span>
-</span><span id="__span-0-148"><a id="__codelineno-0-148" name="__codelineno-0-148"></a>                    <span class="n">parameters</span><span class="p">[</span><span class="s2">&quot;properties&quot;</span><span class="p">][</span><span class="n">name</span><span class="p">][</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">description</span>
+<span class="normal"><a href="#__codelineno-0-193">193</a></span>
+<span class="normal"><a href="#__codelineno-0-194">194</a></span>
+<span class="normal"><a href="#__codelineno-0-195">195</a></span>
+<span class="normal"><a href="#__codelineno-0-196">196</a></span>
+<span class="normal"><a href="#__codelineno-0-197">197</a></span>
+<span class="normal"><a href="#__codelineno-0-198">198</a></span>
+<span class="normal"><a href="#__codelineno-0-199">199</a></span>
+<span class="normal"><a href="#__codelineno-0-200">200</a></span>
+<span class="normal"><a href="#__codelineno-0-201">201</a></span>
+<span class="normal"><a href="#__codelineno-0-202">202</a></span>
+<span class="normal"><a href="#__codelineno-0-203">203</a></span>
+<span class="normal"><a href="#__codelineno-0-204">204</a></span>
+<span class="normal"><a href="#__codelineno-0-205">205</a></span>
+<span class="normal"><a href="#__codelineno-0-206">206</a></span>
+<span class="normal"><a href="#__codelineno-0-207">207</a></span>
+<span class="normal"><a href="#__codelineno-0-208">208</a></span>
+<span class="normal"><a href="#__codelineno-0-209">209</a></span>
+<span class="normal"><a href="#__codelineno-0-210">210</a></span>
+<span class="normal"><a href="#__codelineno-0-211">211</a></span>
+<span class="normal"><a href="#__codelineno-0-212">212</a></span>
+<span class="normal"><a href="#__codelineno-0-213">213</a></span>
+<span class="normal"><a href="#__codelineno-0-214">214</a></span>
+<span class="normal"><a href="#__codelineno-0-215">215</a></span>
+<span class="normal"><a href="#__codelineno-0-216">216</a></span>
+<span class="normal"><a href="#__codelineno-0-217">217</a></span>
+<span class="normal"><a href="#__codelineno-0-218">218</a></span>
+<span class="normal"><a href="#__codelineno-0-219">219</a></span>
+<span class="normal"><a href="#__codelineno-0-220">220</a></span>
+<span class="normal"><a href="#__codelineno-0-221">221</a></span>
+<span class="normal"><a href="#__codelineno-0-222">222</a></span>
+<span class="normal"><a href="#__codelineno-0-223">223</a></span>
+<span class="normal"><a href="#__codelineno-0-224">224</a></span>
+<span class="normal"><a href="#__codelineno-0-225">225</a></span>
+<span class="normal"><a href="#__codelineno-0-226">226</a></span>
+<span class="normal"><a href="#__codelineno-0-227">227</a></span>
+<span class="normal"><a href="#__codelineno-0-228">228</a></span>
+<span class="normal"><a href="#__codelineno-0-229">229</a></span>
+<span class="normal"><a href="#__codelineno-0-230">230</a></span>
+<span class="normal"><a href="#__codelineno-0-231">231</a></span>
+<span class="normal"><a href="#__codelineno-0-232">232</a></span>
+<span class="normal"><a href="#__codelineno-0-233">233</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-125"><a id="__codelineno-0-125" name="__codelineno-0-125"></a><span class="k">class</span> <span class="nc">OpenAISchema</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+</span><span id="__span-0-126"><a id="__codelineno-0-126" name="__codelineno-0-126"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+</span><span id="__span-0-127"><a id="__codelineno-0-127" name="__codelineno-0-127"></a><span class="sd">    Augments a Pydantic model with OpenAI&#39;s schema for function calling</span>
+</span><span id="__span-0-128"><a id="__codelineno-0-128" name="__codelineno-0-128"></a>
+</span><span id="__span-0-129"><a id="__codelineno-0-129" name="__codelineno-0-129"></a><span class="sd">    This class augments a Pydantic model with OpenAI&#39;s schema for function calling. The schema is generated from the model&#39;s signature and docstring. The schema can be used to validate the response from OpenAI&#39;s API and extract the function call.</span>
+</span><span id="__span-0-130"><a id="__codelineno-0-130" name="__codelineno-0-130"></a>
+</span><span id="__span-0-131"><a id="__codelineno-0-131" name="__codelineno-0-131"></a><span class="sd">    ## Usage</span>
+</span><span id="__span-0-132"><a id="__codelineno-0-132" name="__codelineno-0-132"></a>
+</span><span id="__span-0-133"><a id="__codelineno-0-133" name="__codelineno-0-133"></a><span class="sd">    ```python</span>
+</span><span id="__span-0-134"><a id="__codelineno-0-134" name="__codelineno-0-134"></a><span class="sd">    from instructor import OpenAISchema</span>
+</span><span id="__span-0-135"><a id="__codelineno-0-135" name="__codelineno-0-135"></a>
+</span><span id="__span-0-136"><a id="__codelineno-0-136" name="__codelineno-0-136"></a><span class="sd">    class User(OpenAISchema):</span>
+</span><span id="__span-0-137"><a id="__codelineno-0-137" name="__codelineno-0-137"></a><span class="sd">        name: str</span>
+</span><span id="__span-0-138"><a id="__codelineno-0-138" name="__codelineno-0-138"></a><span class="sd">        age: int</span>
+</span><span id="__span-0-139"><a id="__codelineno-0-139" name="__codelineno-0-139"></a>
+</span><span id="__span-0-140"><a id="__codelineno-0-140" name="__codelineno-0-140"></a><span class="sd">    completion = openai.ChatCompletion.create(</span>
+</span><span id="__span-0-141"><a id="__codelineno-0-141" name="__codelineno-0-141"></a><span class="sd">        model=&quot;gpt-3.5-turbo&#39;,</span>
+</span><span id="__span-0-142"><a id="__codelineno-0-142" name="__codelineno-0-142"></a><span class="sd">        messages=[{</span>
+</span><span id="__span-0-143"><a id="__codelineno-0-143" name="__codelineno-0-143"></a><span class="sd">            &quot;content&quot;: &quot;Jason is 20 years old&quot;,</span>
+</span><span id="__span-0-144"><a id="__codelineno-0-144" name="__codelineno-0-144"></a><span class="sd">            &quot;role&quot;: &quot;user&quot;</span>
+</span><span id="__span-0-145"><a id="__codelineno-0-145" name="__codelineno-0-145"></a><span class="sd">        }],</span>
+</span><span id="__span-0-146"><a id="__codelineno-0-146" name="__codelineno-0-146"></a><span class="sd">        functions=[User.openai_schema],</span>
+</span><span id="__span-0-147"><a id="__codelineno-0-147" name="__codelineno-0-147"></a><span class="sd">        function_call={&quot;name&quot;: User.openai_schema[&quot;name&quot;]},</span>
+</span><span id="__span-0-148"><a id="__codelineno-0-148" name="__codelineno-0-148"></a><span class="sd">    )</span>
 </span><span id="__span-0-149"><a id="__codelineno-0-149" name="__codelineno-0-149"></a>
-</span><span id="__span-0-150"><a id="__codelineno-0-150" name="__codelineno-0-150"></a>        <span class="n">parameters</span><span class="p">[</span><span class="s2">&quot;required&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span>
-</span><span id="__span-0-151"><a id="__codelineno-0-151" name="__codelineno-0-151"></a>            <span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">parameters</span><span class="p">[</span><span class="s2">&quot;properties&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="ow">not</span> <span class="s2">&quot;default&quot;</span> <span class="ow">in</span> <span class="n">v</span>
-</span><span id="__span-0-152"><a id="__codelineno-0-152" name="__codelineno-0-152"></a>        <span class="p">)</span>
-</span><span id="__span-0-153"><a id="__codelineno-0-153" name="__codelineno-0-153"></a>
-</span><span id="__span-0-154"><a id="__codelineno-0-154" name="__codelineno-0-154"></a>        <span class="k">if</span> <span class="s2">&quot;description&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">schema</span><span class="p">:</span>
-</span><span id="__span-0-155"><a id="__codelineno-0-155" name="__codelineno-0-155"></a>            <span class="k">if</span> <span class="n">docstring</span><span class="o">.</span><span class="n">short_description</span><span class="p">:</span>
-</span><span id="__span-0-156"><a id="__codelineno-0-156" name="__codelineno-0-156"></a>                <span class="n">schema</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">docstring</span><span class="o">.</span><span class="n">short_description</span>
-</span><span id="__span-0-157"><a id="__codelineno-0-157" name="__codelineno-0-157"></a>            <span class="k">else</span><span class="p">:</span>
-</span><span id="__span-0-158"><a id="__codelineno-0-158" name="__codelineno-0-158"></a>                <span class="n">schema</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
-</span><span id="__span-0-159"><a id="__codelineno-0-159" name="__codelineno-0-159"></a>                    <span class="sa">f</span><span class="s2">&quot;Correctly extracted `</span><span class="si">{</span><span class="bp">cls</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s2">` with all &quot;</span>
-</span><span id="__span-0-160"><a id="__codelineno-0-160" name="__codelineno-0-160"></a>                    <span class="sa">f</span><span class="s2">&quot;the required parameters with correct types&quot;</span>
-</span><span id="__span-0-161"><a id="__codelineno-0-161" name="__codelineno-0-161"></a>                <span class="p">)</span>
+</span><span id="__span-0-150"><a id="__codelineno-0-150" name="__codelineno-0-150"></a><span class="sd">    user = User.from_response(completion)</span>
+</span><span id="__span-0-151"><a id="__codelineno-0-151" name="__codelineno-0-151"></a>
+</span><span id="__span-0-152"><a id="__codelineno-0-152" name="__codelineno-0-152"></a><span class="sd">    print(user.model_dump())</span>
+</span><span id="__span-0-153"><a id="__codelineno-0-153" name="__codelineno-0-153"></a><span class="sd">    ```</span>
+</span><span id="__span-0-154"><a id="__codelineno-0-154" name="__codelineno-0-154"></a><span class="sd">    ## Result</span>
+</span><span id="__span-0-155"><a id="__codelineno-0-155" name="__codelineno-0-155"></a>
+</span><span id="__span-0-156"><a id="__codelineno-0-156" name="__codelineno-0-156"></a><span class="sd">    ```</span>
+</span><span id="__span-0-157"><a id="__codelineno-0-157" name="__codelineno-0-157"></a><span class="sd">    {</span>
+</span><span id="__span-0-158"><a id="__codelineno-0-158" name="__codelineno-0-158"></a><span class="sd">        &quot;name&quot;: &quot;Jason Liu&quot;,</span>
+</span><span id="__span-0-159"><a id="__codelineno-0-159" name="__codelineno-0-159"></a><span class="sd">        &quot;age&quot;: 20,</span>
+</span><span id="__span-0-160"><a id="__codelineno-0-160" name="__codelineno-0-160"></a><span class="sd">    }</span>
+</span><span id="__span-0-161"><a id="__codelineno-0-161" name="__codelineno-0-161"></a><span class="sd">    ```</span>
 </span><span id="__span-0-162"><a id="__codelineno-0-162" name="__codelineno-0-162"></a>
-</span><span id="__span-0-163"><a id="__codelineno-0-163" name="__codelineno-0-163"></a>        <span class="n">_remove_a_key</span><span class="p">(</span><span class="n">parameters</span><span class="p">,</span> <span class="s2">&quot;additionalProperties&quot;</span><span class="p">)</span>
-</span><span id="__span-0-164"><a id="__codelineno-0-164" name="__codelineno-0-164"></a>        <span class="n">_remove_a_key</span><span class="p">(</span><span class="n">parameters</span><span class="p">,</span> <span class="s2">&quot;title&quot;</span><span class="p">)</span>
-</span><span id="__span-0-165"><a id="__codelineno-0-165" name="__codelineno-0-165"></a>        <span class="k">return</span> <span class="p">{</span>
-</span><span id="__span-0-166"><a id="__codelineno-0-166" name="__codelineno-0-166"></a>            <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="n">schema</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">],</span>
-</span><span id="__span-0-167"><a id="__codelineno-0-167" name="__codelineno-0-167"></a>            <span class="s2">&quot;description&quot;</span><span class="p">:</span> <span class="n">schema</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">],</span>
-</span><span id="__span-0-168"><a id="__codelineno-0-168" name="__codelineno-0-168"></a>            <span class="s2">&quot;parameters&quot;</span><span class="p">:</span> <span class="n">parameters</span><span class="p">,</span>
-</span><span id="__span-0-169"><a id="__codelineno-0-169" name="__codelineno-0-169"></a>        <span class="p">}</span>
-</span><span id="__span-0-170"><a id="__codelineno-0-170" name="__codelineno-0-170"></a>
-</span><span id="__span-0-171"><a id="__codelineno-0-171" name="__codelineno-0-171"></a>    <span class="nd">@classmethod</span>
-</span><span id="__span-0-172"><a id="__codelineno-0-172" name="__codelineno-0-172"></a>    <span class="k">def</span> <span class="nf">from_response</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">completion</span><span class="p">,</span> <span class="n">throw_error</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">validation_context</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-</span><span id="__span-0-173"><a id="__codelineno-0-173" name="__codelineno-0-173"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;Execute the function from the response of an openai chat completion</span>
+</span><span id="__span-0-163"><a id="__codelineno-0-163" name="__codelineno-0-163"></a>
+</span><span id="__span-0-164"><a id="__codelineno-0-164" name="__codelineno-0-164"></a><span class="sd">    &quot;&quot;&quot;</span>
+</span><span id="__span-0-165"><a id="__codelineno-0-165" name="__codelineno-0-165"></a>
+</span><span id="__span-0-166"><a id="__codelineno-0-166" name="__codelineno-0-166"></a>    <span class="nd">@classmethod</span>
+</span><span id="__span-0-167"><a id="__codelineno-0-167" name="__codelineno-0-167"></a>    <span class="nd">@property</span>
+</span><span id="__span-0-168"><a id="__codelineno-0-168" name="__codelineno-0-168"></a>    <span class="k">def</span> <span class="nf">openai_schema</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+</span><span id="__span-0-169"><a id="__codelineno-0-169" name="__codelineno-0-169"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+</span><span id="__span-0-170"><a id="__codelineno-0-170" name="__codelineno-0-170"></a><span class="sd">        Return the schema in the format of OpenAI&#39;s schema as jsonschema</span>
+</span><span id="__span-0-171"><a id="__codelineno-0-171" name="__codelineno-0-171"></a>
+</span><span id="__span-0-172"><a id="__codelineno-0-172" name="__codelineno-0-172"></a><span class="sd">        Note:</span>
+</span><span id="__span-0-173"><a id="__codelineno-0-173" name="__codelineno-0-173"></a><span class="sd">            Its important to add a docstring to describe how to best use this class, it will be included in the description attribute and be part of the prompt.</span>
 </span><span id="__span-0-174"><a id="__codelineno-0-174" name="__codelineno-0-174"></a>
-</span><span id="__span-0-175"><a id="__codelineno-0-175" name="__codelineno-0-175"></a><span class="sd">        Parameters:</span>
-</span><span id="__span-0-176"><a id="__codelineno-0-176" name="__codelineno-0-176"></a><span class="sd">            completion (openai.ChatCompletion): The response from an openai chat completion</span>
-</span><span id="__span-0-177"><a id="__codelineno-0-177" name="__codelineno-0-177"></a><span class="sd">            throw_error (bool): Whether to throw an error if the function call is not detected</span>
-</span><span id="__span-0-178"><a id="__codelineno-0-178" name="__codelineno-0-178"></a><span class="sd">            validation_context (dict): The validation context to use for validating the response</span>
-</span><span id="__span-0-179"><a id="__codelineno-0-179" name="__codelineno-0-179"></a>
-</span><span id="__span-0-180"><a id="__codelineno-0-180" name="__codelineno-0-180"></a><span class="sd">        Returns:</span>
-</span><span id="__span-0-181"><a id="__codelineno-0-181" name="__codelineno-0-181"></a><span class="sd">            cls (OpenAISchema): An instance of the class</span>
-</span><span id="__span-0-182"><a id="__codelineno-0-182" name="__codelineno-0-182"></a><span class="sd">        &quot;&quot;&quot;</span>
-</span><span id="__span-0-183"><a id="__codelineno-0-183" name="__codelineno-0-183"></a>        <span class="n">message</span> <span class="o">=</span> <span class="n">completion</span><span class="p">[</span><span class="s2">&quot;choices&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;message&quot;</span><span class="p">]</span>
-</span><span id="__span-0-184"><a id="__codelineno-0-184" name="__codelineno-0-184"></a>
-</span><span id="__span-0-185"><a id="__codelineno-0-185" name="__codelineno-0-185"></a>        <span class="k">if</span> <span class="n">throw_error</span><span class="p">:</span>
-</span><span id="__span-0-186"><a id="__codelineno-0-186" name="__codelineno-0-186"></a>            <span class="k">assert</span> <span class="s2">&quot;function_call&quot;</span> <span class="ow">in</span> <span class="n">message</span><span class="p">,</span> <span class="s2">&quot;No function call detected&quot;</span>
-</span><span id="__span-0-187"><a id="__codelineno-0-187" name="__codelineno-0-187"></a>            <span class="k">assert</span> <span class="p">(</span>
-</span><span id="__span-0-188"><a id="__codelineno-0-188" name="__codelineno-0-188"></a>                <span class="n">message</span><span class="p">[</span><span class="s2">&quot;function_call&quot;</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="bp">cls</span><span class="o">.</span><span class="n">openai_schema</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">]</span>
-</span><span id="__span-0-189"><a id="__codelineno-0-189" name="__codelineno-0-189"></a>            <span class="p">),</span> <span class="s2">&quot;Function name does not match&quot;</span>
-</span><span id="__span-0-190"><a id="__codelineno-0-190" name="__codelineno-0-190"></a>
-</span><span id="__span-0-191"><a id="__codelineno-0-191" name="__codelineno-0-191"></a>        <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">model_validate_json</span><span class="p">(</span>
-</span><span id="__span-0-192"><a id="__codelineno-0-192" name="__codelineno-0-192"></a>            <span class="n">message</span><span class="p">[</span><span class="s2">&quot;function_call&quot;</span><span class="p">][</span><span class="s2">&quot;arguments&quot;</span><span class="p">],</span> <span class="n">context</span><span class="o">=</span><span class="n">validation_context</span>
-</span><span id="__span-0-193"><a id="__codelineno-0-193" name="__codelineno-0-193"></a>        <span class="p">)</span>
+</span><span id="__span-0-175"><a id="__codelineno-0-175" name="__codelineno-0-175"></a><span class="sd">        Returns:</span>
+</span><span id="__span-0-176"><a id="__codelineno-0-176" name="__codelineno-0-176"></a><span class="sd">            model_json_schema (dict): A dictionary in the format of OpenAI&#39;s schema as jsonschema</span>
+</span><span id="__span-0-177"><a id="__codelineno-0-177" name="__codelineno-0-177"></a><span class="sd">        &quot;&quot;&quot;</span>
+</span><span id="__span-0-178"><a id="__codelineno-0-178" name="__codelineno-0-178"></a>        <span class="n">schema</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">model_json_schema</span><span class="p">()</span>
+</span><span id="__span-0-179"><a id="__codelineno-0-179" name="__codelineno-0-179"></a>        <span class="n">docstring</span> <span class="o">=</span> <span class="n">parse</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="vm">__doc__</span> <span class="ow">or</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+</span><span id="__span-0-180"><a id="__codelineno-0-180" name="__codelineno-0-180"></a>        <span class="n">parameters</span> <span class="o">=</span> <span class="p">{</span>
+</span><span id="__span-0-181"><a id="__codelineno-0-181" name="__codelineno-0-181"></a>            <span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">schema</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">k</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;title&quot;</span><span class="p">,</span> <span class="s2">&quot;description&quot;</span><span class="p">)</span>
+</span><span id="__span-0-182"><a id="__codelineno-0-182" name="__codelineno-0-182"></a>        <span class="p">}</span>
+</span><span id="__span-0-183"><a id="__codelineno-0-183" name="__codelineno-0-183"></a>        <span class="k">for</span> <span class="n">param</span> <span class="ow">in</span> <span class="n">docstring</span><span class="o">.</span><span class="n">params</span><span class="p">:</span>
+</span><span id="__span-0-184"><a id="__codelineno-0-184" name="__codelineno-0-184"></a>            <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">:=</span> <span class="n">param</span><span class="o">.</span><span class="n">arg_name</span><span class="p">)</span> <span class="ow">in</span> <span class="n">parameters</span><span class="p">[</span><span class="s2">&quot;properties&quot;</span><span class="p">]</span> <span class="ow">and</span> <span class="p">(</span>
+</span><span id="__span-0-185"><a id="__codelineno-0-185" name="__codelineno-0-185"></a>                <span class="n">description</span> <span class="o">:=</span> <span class="n">param</span><span class="o">.</span><span class="n">description</span>
+</span><span id="__span-0-186"><a id="__codelineno-0-186" name="__codelineno-0-186"></a>            <span class="p">):</span>
+</span><span id="__span-0-187"><a id="__codelineno-0-187" name="__codelineno-0-187"></a>                <span class="k">if</span> <span class="s2">&quot;description&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">parameters</span><span class="p">[</span><span class="s2">&quot;properties&quot;</span><span class="p">][</span><span class="n">name</span><span class="p">]:</span>
+</span><span id="__span-0-188"><a id="__codelineno-0-188" name="__codelineno-0-188"></a>                    <span class="n">parameters</span><span class="p">[</span><span class="s2">&quot;properties&quot;</span><span class="p">][</span><span class="n">name</span><span class="p">][</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">description</span>
+</span><span id="__span-0-189"><a id="__codelineno-0-189" name="__codelineno-0-189"></a>
+</span><span id="__span-0-190"><a id="__codelineno-0-190" name="__codelineno-0-190"></a>        <span class="n">parameters</span><span class="p">[</span><span class="s2">&quot;required&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span>
+</span><span id="__span-0-191"><a id="__codelineno-0-191" name="__codelineno-0-191"></a>            <span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">parameters</span><span class="p">[</span><span class="s2">&quot;properties&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="ow">not</span> <span class="s2">&quot;default&quot;</span> <span class="ow">in</span> <span class="n">v</span>
+</span><span id="__span-0-192"><a id="__codelineno-0-192" name="__codelineno-0-192"></a>        <span class="p">)</span>
+</span><span id="__span-0-193"><a id="__codelineno-0-193" name="__codelineno-0-193"></a>
+</span><span id="__span-0-194"><a id="__codelineno-0-194" name="__codelineno-0-194"></a>        <span class="k">if</span> <span class="s2">&quot;description&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">schema</span><span class="p">:</span>
+</span><span id="__span-0-195"><a id="__codelineno-0-195" name="__codelineno-0-195"></a>            <span class="k">if</span> <span class="n">docstring</span><span class="o">.</span><span class="n">short_description</span><span class="p">:</span>
+</span><span id="__span-0-196"><a id="__codelineno-0-196" name="__codelineno-0-196"></a>                <span class="n">schema</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">docstring</span><span class="o">.</span><span class="n">short_description</span>
+</span><span id="__span-0-197"><a id="__codelineno-0-197" name="__codelineno-0-197"></a>            <span class="k">else</span><span class="p">:</span>
+</span><span id="__span-0-198"><a id="__codelineno-0-198" name="__codelineno-0-198"></a>                <span class="n">schema</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+</span><span id="__span-0-199"><a id="__codelineno-0-199" name="__codelineno-0-199"></a>                    <span class="sa">f</span><span class="s2">&quot;Correctly extracted `</span><span class="si">{</span><span class="bp">cls</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s2">` with all &quot;</span>
+</span><span id="__span-0-200"><a id="__codelineno-0-200" name="__codelineno-0-200"></a>                    <span class="sa">f</span><span class="s2">&quot;the required parameters with correct types&quot;</span>
+</span><span id="__span-0-201"><a id="__codelineno-0-201" name="__codelineno-0-201"></a>                <span class="p">)</span>
+</span><span id="__span-0-202"><a id="__codelineno-0-202" name="__codelineno-0-202"></a>
+</span><span id="__span-0-203"><a id="__codelineno-0-203" name="__codelineno-0-203"></a>        <span class="n">_remove_a_key</span><span class="p">(</span><span class="n">parameters</span><span class="p">,</span> <span class="s2">&quot;title&quot;</span><span class="p">)</span>
+</span><span id="__span-0-204"><a id="__codelineno-0-204" name="__codelineno-0-204"></a>        <span class="n">_remove_a_key</span><span class="p">(</span><span class="n">parameters</span><span class="p">,</span> <span class="s2">&quot;additionalProperties&quot;</span><span class="p">)</span>
+</span><span id="__span-0-205"><a id="__codelineno-0-205" name="__codelineno-0-205"></a>        <span class="k">return</span> <span class="p">{</span>
+</span><span id="__span-0-206"><a id="__codelineno-0-206" name="__codelineno-0-206"></a>            <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="n">schema</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">],</span>
+</span><span id="__span-0-207"><a id="__codelineno-0-207" name="__codelineno-0-207"></a>            <span class="s2">&quot;description&quot;</span><span class="p">:</span> <span class="n">schema</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">],</span>
+</span><span id="__span-0-208"><a id="__codelineno-0-208" name="__codelineno-0-208"></a>            <span class="s2">&quot;parameters&quot;</span><span class="p">:</span> <span class="n">parameters</span><span class="p">,</span>
+</span><span id="__span-0-209"><a id="__codelineno-0-209" name="__codelineno-0-209"></a>        <span class="p">}</span>
+</span><span id="__span-0-210"><a id="__codelineno-0-210" name="__codelineno-0-210"></a>
+</span><span id="__span-0-211"><a id="__codelineno-0-211" name="__codelineno-0-211"></a>    <span class="nd">@classmethod</span>
+</span><span id="__span-0-212"><a id="__codelineno-0-212" name="__codelineno-0-212"></a>    <span class="k">def</span> <span class="nf">from_response</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">completion</span><span class="p">,</span> <span class="n">throw_error</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">validation_context</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+</span><span id="__span-0-213"><a id="__codelineno-0-213" name="__codelineno-0-213"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;Execute the function from the response of an openai chat completion</span>
+</span><span id="__span-0-214"><a id="__codelineno-0-214" name="__codelineno-0-214"></a>
+</span><span id="__span-0-215"><a id="__codelineno-0-215" name="__codelineno-0-215"></a><span class="sd">        Parameters:</span>
+</span><span id="__span-0-216"><a id="__codelineno-0-216" name="__codelineno-0-216"></a><span class="sd">            completion (openai.ChatCompletion): The response from an openai chat completion</span>
+</span><span id="__span-0-217"><a id="__codelineno-0-217" name="__codelineno-0-217"></a><span class="sd">            throw_error (bool): Whether to throw an error if the function call is not detected</span>
+</span><span id="__span-0-218"><a id="__codelineno-0-218" name="__codelineno-0-218"></a><span class="sd">            validation_context (dict): The validation context to use for validating the response</span>
+</span><span id="__span-0-219"><a id="__codelineno-0-219" name="__codelineno-0-219"></a>
+</span><span id="__span-0-220"><a id="__codelineno-0-220" name="__codelineno-0-220"></a><span class="sd">        Returns:</span>
+</span><span id="__span-0-221"><a id="__codelineno-0-221" name="__codelineno-0-221"></a><span class="sd">            cls (OpenAISchema): An instance of the class</span>
+</span><span id="__span-0-222"><a id="__codelineno-0-222" name="__codelineno-0-222"></a><span class="sd">        &quot;&quot;&quot;</span>
+</span><span id="__span-0-223"><a id="__codelineno-0-223" name="__codelineno-0-223"></a>        <span class="n">message</span> <span class="o">=</span> <span class="n">completion</span><span class="p">[</span><span class="s2">&quot;choices&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;message&quot;</span><span class="p">]</span>
+</span><span id="__span-0-224"><a id="__codelineno-0-224" name="__codelineno-0-224"></a>
+</span><span id="__span-0-225"><a id="__codelineno-0-225" name="__codelineno-0-225"></a>        <span class="k">if</span> <span class="n">throw_error</span><span class="p">:</span>
+</span><span id="__span-0-226"><a id="__codelineno-0-226" name="__codelineno-0-226"></a>            <span class="k">assert</span> <span class="s2">&quot;function_call&quot;</span> <span class="ow">in</span> <span class="n">message</span><span class="p">,</span> <span class="s2">&quot;No function call detected&quot;</span>
+</span><span id="__span-0-227"><a id="__codelineno-0-227" name="__codelineno-0-227"></a>            <span class="k">assert</span> <span class="p">(</span>
+</span><span id="__span-0-228"><a id="__codelineno-0-228" name="__codelineno-0-228"></a>                <span class="n">message</span><span class="p">[</span><span class="s2">&quot;function_call&quot;</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="bp">cls</span><span class="o">.</span><span class="n">openai_schema</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">]</span>
+</span><span id="__span-0-229"><a id="__codelineno-0-229" name="__codelineno-0-229"></a>            <span class="p">),</span> <span class="s2">&quot;Function name does not match&quot;</span>
+</span><span id="__span-0-230"><a id="__codelineno-0-230" name="__codelineno-0-230"></a>
+</span><span id="__span-0-231"><a id="__codelineno-0-231" name="__codelineno-0-231"></a>        <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">model_validate_json</span><span class="p">(</span>
+</span><span id="__span-0-232"><a id="__codelineno-0-232" name="__codelineno-0-232"></a>            <span class="n">message</span><span class="p">[</span><span class="s2">&quot;function_call&quot;</span><span class="p">][</span><span class="s2">&quot;arguments&quot;</span><span class="p">],</span> <span class="n">context</span><span class="o">=</span><span class="n">validation_context</span>
+</span><span id="__span-0-233"><a id="__codelineno-0-233" name="__codelineno-0-233"></a>        <span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
             </details>
 
@@ -2187,51 +2130,51 @@
 
           <details class="quote">
             <summary>Source code in <code>instructor/function_calls.py</code></summary>
-            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-171">171</a></span>
-<span class="normal"><a href="#__codelineno-0-172">172</a></span>
-<span class="normal"><a href="#__codelineno-0-173">173</a></span>
-<span class="normal"><a href="#__codelineno-0-174">174</a></span>
-<span class="normal"><a href="#__codelineno-0-175">175</a></span>
-<span class="normal"><a href="#__codelineno-0-176">176</a></span>
-<span class="normal"><a href="#__codelineno-0-177">177</a></span>
-<span class="normal"><a href="#__codelineno-0-178">178</a></span>
-<span class="normal"><a href="#__codelineno-0-179">179</a></span>
-<span class="normal"><a href="#__codelineno-0-180">180</a></span>
-<span class="normal"><a href="#__codelineno-0-181">181</a></span>
-<span class="normal"><a href="#__codelineno-0-182">182</a></span>
-<span class="normal"><a href="#__codelineno-0-183">183</a></span>
-<span class="normal"><a href="#__codelineno-0-184">184</a></span>
-<span class="normal"><a href="#__codelineno-0-185">185</a></span>
-<span class="normal"><a href="#__codelineno-0-186">186</a></span>
-<span class="normal"><a href="#__codelineno-0-187">187</a></span>
-<span class="normal"><a href="#__codelineno-0-188">188</a></span>
-<span class="normal"><a href="#__codelineno-0-189">189</a></span>
-<span class="normal"><a href="#__codelineno-0-190">190</a></span>
-<span class="normal"><a href="#__codelineno-0-191">191</a></span>
-<span class="normal"><a href="#__codelineno-0-192">192</a></span>
-<span class="normal"><a href="#__codelineno-0-193">193</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-171"><a id="__codelineno-0-171" name="__codelineno-0-171"></a><span class="nd">@classmethod</span>
-</span><span id="__span-0-172"><a id="__codelineno-0-172" name="__codelineno-0-172"></a><span class="k">def</span> <span class="nf">from_response</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">completion</span><span class="p">,</span> <span class="n">throw_error</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">validation_context</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-</span><span id="__span-0-173"><a id="__codelineno-0-173" name="__codelineno-0-173"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Execute the function from the response of an openai chat completion</span>
-</span><span id="__span-0-174"><a id="__codelineno-0-174" name="__codelineno-0-174"></a>
-</span><span id="__span-0-175"><a id="__codelineno-0-175" name="__codelineno-0-175"></a><span class="sd">    Parameters:</span>
-</span><span id="__span-0-176"><a id="__codelineno-0-176" name="__codelineno-0-176"></a><span class="sd">        completion (openai.ChatCompletion): The response from an openai chat completion</span>
-</span><span id="__span-0-177"><a id="__codelineno-0-177" name="__codelineno-0-177"></a><span class="sd">        throw_error (bool): Whether to throw an error if the function call is not detected</span>
-</span><span id="__span-0-178"><a id="__codelineno-0-178" name="__codelineno-0-178"></a><span class="sd">        validation_context (dict): The validation context to use for validating the response</span>
-</span><span id="__span-0-179"><a id="__codelineno-0-179" name="__codelineno-0-179"></a>
-</span><span id="__span-0-180"><a id="__codelineno-0-180" name="__codelineno-0-180"></a><span class="sd">    Returns:</span>
-</span><span id="__span-0-181"><a id="__codelineno-0-181" name="__codelineno-0-181"></a><span class="sd">        cls (OpenAISchema): An instance of the class</span>
-</span><span id="__span-0-182"><a id="__codelineno-0-182" name="__codelineno-0-182"></a><span class="sd">    &quot;&quot;&quot;</span>
-</span><span id="__span-0-183"><a id="__codelineno-0-183" name="__codelineno-0-183"></a>    <span class="n">message</span> <span class="o">=</span> <span class="n">completion</span><span class="p">[</span><span class="s2">&quot;choices&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;message&quot;</span><span class="p">]</span>
-</span><span id="__span-0-184"><a id="__codelineno-0-184" name="__codelineno-0-184"></a>
-</span><span id="__span-0-185"><a id="__codelineno-0-185" name="__codelineno-0-185"></a>    <span class="k">if</span> <span class="n">throw_error</span><span class="p">:</span>
-</span><span id="__span-0-186"><a id="__codelineno-0-186" name="__codelineno-0-186"></a>        <span class="k">assert</span> <span class="s2">&quot;function_call&quot;</span> <span class="ow">in</span> <span class="n">message</span><span class="p">,</span> <span class="s2">&quot;No function call detected&quot;</span>
-</span><span id="__span-0-187"><a id="__codelineno-0-187" name="__codelineno-0-187"></a>        <span class="k">assert</span> <span class="p">(</span>
-</span><span id="__span-0-188"><a id="__codelineno-0-188" name="__codelineno-0-188"></a>            <span class="n">message</span><span class="p">[</span><span class="s2">&quot;function_call&quot;</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="bp">cls</span><span class="o">.</span><span class="n">openai_schema</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">]</span>
-</span><span id="__span-0-189"><a id="__codelineno-0-189" name="__codelineno-0-189"></a>        <span class="p">),</span> <span class="s2">&quot;Function name does not match&quot;</span>
-</span><span id="__span-0-190"><a id="__codelineno-0-190" name="__codelineno-0-190"></a>
-</span><span id="__span-0-191"><a id="__codelineno-0-191" name="__codelineno-0-191"></a>    <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">model_validate_json</span><span class="p">(</span>
-</span><span id="__span-0-192"><a id="__codelineno-0-192" name="__codelineno-0-192"></a>        <span class="n">message</span><span class="p">[</span><span class="s2">&quot;function_call&quot;</span><span class="p">][</span><span class="s2">&quot;arguments&quot;</span><span class="p">],</span> <span class="n">context</span><span class="o">=</span><span class="n">validation_context</span>
-</span><span id="__span-0-193"><a id="__codelineno-0-193" name="__codelineno-0-193"></a>    <span class="p">)</span>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-211">211</a></span>
+<span class="normal"><a href="#__codelineno-0-212">212</a></span>
+<span class="normal"><a href="#__codelineno-0-213">213</a></span>
+<span class="normal"><a href="#__codelineno-0-214">214</a></span>
+<span class="normal"><a href="#__codelineno-0-215">215</a></span>
+<span class="normal"><a href="#__codelineno-0-216">216</a></span>
+<span class="normal"><a href="#__codelineno-0-217">217</a></span>
+<span class="normal"><a href="#__codelineno-0-218">218</a></span>
+<span class="normal"><a href="#__codelineno-0-219">219</a></span>
+<span class="normal"><a href="#__codelineno-0-220">220</a></span>
+<span class="normal"><a href="#__codelineno-0-221">221</a></span>
+<span class="normal"><a href="#__codelineno-0-222">222</a></span>
+<span class="normal"><a href="#__codelineno-0-223">223</a></span>
+<span class="normal"><a href="#__codelineno-0-224">224</a></span>
+<span class="normal"><a href="#__codelineno-0-225">225</a></span>
+<span class="normal"><a href="#__codelineno-0-226">226</a></span>
+<span class="normal"><a href="#__codelineno-0-227">227</a></span>
+<span class="normal"><a href="#__codelineno-0-228">228</a></span>
+<span class="normal"><a href="#__codelineno-0-229">229</a></span>
+<span class="normal"><a href="#__codelineno-0-230">230</a></span>
+<span class="normal"><a href="#__codelineno-0-231">231</a></span>
+<span class="normal"><a href="#__codelineno-0-232">232</a></span>
+<span class="normal"><a href="#__codelineno-0-233">233</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-211"><a id="__codelineno-0-211" name="__codelineno-0-211"></a><span class="nd">@classmethod</span>
+</span><span id="__span-0-212"><a id="__codelineno-0-212" name="__codelineno-0-212"></a><span class="k">def</span> <span class="nf">from_response</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">completion</span><span class="p">,</span> <span class="n">throw_error</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">validation_context</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+</span><span id="__span-0-213"><a id="__codelineno-0-213" name="__codelineno-0-213"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Execute the function from the response of an openai chat completion</span>
+</span><span id="__span-0-214"><a id="__codelineno-0-214" name="__codelineno-0-214"></a>
+</span><span id="__span-0-215"><a id="__codelineno-0-215" name="__codelineno-0-215"></a><span class="sd">    Parameters:</span>
+</span><span id="__span-0-216"><a id="__codelineno-0-216" name="__codelineno-0-216"></a><span class="sd">        completion (openai.ChatCompletion): The response from an openai chat completion</span>
+</span><span id="__span-0-217"><a id="__codelineno-0-217" name="__codelineno-0-217"></a><span class="sd">        throw_error (bool): Whether to throw an error if the function call is not detected</span>
+</span><span id="__span-0-218"><a id="__codelineno-0-218" name="__codelineno-0-218"></a><span class="sd">        validation_context (dict): The validation context to use for validating the response</span>
+</span><span id="__span-0-219"><a id="__codelineno-0-219" name="__codelineno-0-219"></a>
+</span><span id="__span-0-220"><a id="__codelineno-0-220" name="__codelineno-0-220"></a><span class="sd">    Returns:</span>
+</span><span id="__span-0-221"><a id="__codelineno-0-221" name="__codelineno-0-221"></a><span class="sd">        cls (OpenAISchema): An instance of the class</span>
+</span><span id="__span-0-222"><a id="__codelineno-0-222" name="__codelineno-0-222"></a><span class="sd">    &quot;&quot;&quot;</span>
+</span><span id="__span-0-223"><a id="__codelineno-0-223" name="__codelineno-0-223"></a>    <span class="n">message</span> <span class="o">=</span> <span class="n">completion</span><span class="p">[</span><span class="s2">&quot;choices&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;message&quot;</span><span class="p">]</span>
+</span><span id="__span-0-224"><a id="__codelineno-0-224" name="__codelineno-0-224"></a>
+</span><span id="__span-0-225"><a id="__codelineno-0-225" name="__codelineno-0-225"></a>    <span class="k">if</span> <span class="n">throw_error</span><span class="p">:</span>
+</span><span id="__span-0-226"><a id="__codelineno-0-226" name="__codelineno-0-226"></a>        <span class="k">assert</span> <span class="s2">&quot;function_call&quot;</span> <span class="ow">in</span> <span class="n">message</span><span class="p">,</span> <span class="s2">&quot;No function call detected&quot;</span>
+</span><span id="__span-0-227"><a id="__codelineno-0-227" name="__codelineno-0-227"></a>        <span class="k">assert</span> <span class="p">(</span>
+</span><span id="__span-0-228"><a id="__codelineno-0-228" name="__codelineno-0-228"></a>            <span class="n">message</span><span class="p">[</span><span class="s2">&quot;function_call&quot;</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="bp">cls</span><span class="o">.</span><span class="n">openai_schema</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">]</span>
+</span><span id="__span-0-229"><a id="__codelineno-0-229" name="__codelineno-0-229"></a>        <span class="p">),</span> <span class="s2">&quot;Function name does not match&quot;</span>
+</span><span id="__span-0-230"><a id="__codelineno-0-230" name="__codelineno-0-230"></a>
+</span><span id="__span-0-231"><a id="__codelineno-0-231" name="__codelineno-0-231"></a>    <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">model_validate_json</span><span class="p">(</span>
+</span><span id="__span-0-232"><a id="__codelineno-0-232" name="__codelineno-0-232"></a>        <span class="n">message</span><span class="p">[</span><span class="s2">&quot;function_call&quot;</span><span class="p">][</span><span class="s2">&quot;arguments&quot;</span><span class="p">],</span> <span class="n">context</span><span class="o">=</span><span class="n">validation_context</span>
+</span><span id="__span-0-233"><a id="__codelineno-0-233" name="__codelineno-0-233"></a>    <span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
           </details>
   </div>
@@ -2636,44 +2579,6 @@ generated from the function signature.</p>
       
         <footer class="md-footer">
   
-    
-      
-      <nav class="md-footer__inner md-grid" aria-label="Footer" >
-        
-          
-          <a href="../cli/finetune/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Finetuning GPT" rel="prev">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              <div class="md-ellipsis">
-                Finetuning GPT
-              </div>
-            </div>
-          </a>
-        
-        
-          
-          <a href="../api_multitask/" class="md-footer__link md-footer__link--next" aria-label="Next: MultiTask" rel="next">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                MultiTask
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
     
   
   <div class="md-footer-meta md-typeset">
