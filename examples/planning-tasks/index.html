@@ -19,11 +19,8 @@
         <link rel="next" href="../recursive/">
       
       
-        
-      
-      
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.3.1+insiders-4.41.0">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.3.2">
     
     
       
@@ -31,10 +28,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.c4d31a9e.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.30068a00.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.da3f46a0.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
       
       
 
@@ -71,20 +68,34 @@
 
     
     
-  
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Query Decomposition in One Go - Instructor (openai_function_call)" />
-<meta property="og:description" content="Enhancing OpenAI function calling with Pydantic" />
-<meta property="og:image" content="https://jxnl.github.io/instructor/assets/images/social/examples/planning-tasks.png" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://jxnl.github.io/instructor/examples/planning-tasks/" />
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter.title" content="Query Decomposition in One Go - Instructor (openai_function_call)" />
-<meta property="twitter:description" content="Enhancing OpenAI function calling with Pydantic" />
-<meta property="twitter:image" content="https://jxnl.github.io/instructor/assets/images/social/examples/planning-tasks.png" />
-</head>
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Query Decomposition in One Go - Instructor (openai_function_call)" >
+      
+        <meta  property="og:description"  content="Enhancing OpenAI function calling with Pydantic" >
+      
+        <meta  property="og:image"  content="https://jxnl.github.io/instructor/assets/images/social/examples/planning-tasks.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://jxnl.github.io/instructor/examples/planning-tasks/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Query Decomposition in One Go - Instructor (openai_function_call)" >
+      
+        <meta  name="twitter:description"  content="Enhancing OpenAI function calling with Pydantic" >
+      
+        <meta  name="twitter:image"  content="https://jxnl.github.io/instructor/assets/images/social/examples/planning-tasks.png" >
+      
+    
+    
+  </head>
   
   
     
@@ -96,6 +107,9 @@
     
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -152,9 +166,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
       </label>
     
@@ -162,18 +176,15 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
       </label>
     
   
 </form>
       
-    
-    
-      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -402,14 +413,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Introduction
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -418,11 +423,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Introduction
-  
-
+            Introduction
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -436,14 +437,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Getting Started
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -462,14 +457,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Prompt Engineering Tips
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -500,14 +489,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Helpers
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -516,11 +499,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1_3">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Helpers
-  
-
+            Helpers
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -534,14 +513,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Reasking and Validation Overview
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -560,14 +533,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Multiple Extractions
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -586,14 +553,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Handling Missing Content
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -620,14 +581,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Philosophy
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -665,14 +620,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Cookbook
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -681,11 +630,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Cookbook
-  
-
+            Cookbook
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -699,14 +644,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Overview
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -725,14 +664,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Text Classification Techniques
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -751,14 +684,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     AI Self-Assessment
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -777,14 +704,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Citation Retrieval via Regex
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -803,14 +724,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Knowledge Graph Generation
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -829,14 +744,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Entity Resolution
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -855,14 +764,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Search Query Segmentation
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -890,14 +793,8 @@
           
   
   <span class="md-ellipsis">
-    
-  
     Query Decomposition in One Go
-  
-
-    
   </span>
-  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -907,14 +804,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Query Decomposition in One Go
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -936,33 +827,21 @@
       
         <li class="md-nav__item">
   <a href="#defining-the-structures" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Defining the Structures
-      
-    </span>
+    Defining the Structures
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#planning-a-query-plan" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Planning a Query Plan
-      
-    </span>
+    Planning a Query Plan
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Conclusion
-      
-    </span>
+    Conclusion
   </a>
   
 </li>
@@ -986,14 +865,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Working with Recursive Schemas
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1012,14 +885,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Table Extraction from Text
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1038,14 +905,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Action Item and Dependency Mapping
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1064,14 +925,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Multi-File Code Generation
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1090,14 +945,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     PII Data Sanitization
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1135,14 +984,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     CLI Reference
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1151,11 +994,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    CLI Reference
-  
-
+            CLI Reference
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1169,14 +1008,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Introduction
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1195,14 +1028,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Usage Tracking
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1221,14 +1048,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Finetuning GPT
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1266,14 +1087,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     API Reference
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1282,11 +1097,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    API Reference
-  
-
+            API Reference
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1300,14 +1111,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Core Library
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1326,14 +1131,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Prompting DSL: Intro
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1352,14 +1151,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Prompting DSL Reference
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1397,14 +1190,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Blog
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1413,11 +1200,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Blog
-  
-
+            Blog
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1431,14 +1214,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Index
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1469,14 +1246,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Archive
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1485,11 +1256,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Archive
-  
-
+            Archive
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1503,14 +1270,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     2023
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1562,33 +1323,21 @@
       
         <li class="md-nav__item">
   <a href="#defining-the-structures" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Defining the Structures
-      
-    </span>
+    Defining the Structures
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#planning-a-query-plan" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Planning a Query Plan
-      
-    </span>
+    Planning a Query Plan
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Conclusion
-      
-    </span>
+    Conclusion
   </a>
   
 </li>
@@ -1603,13 +1352,6 @@
           
           
             <div class="md-content" data-md-component="content">
-              
-                
-
-
-
-
-              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -1750,7 +1492,6 @@
 <p>Feel free to modify the code to fit your specific use case and explore other possibilities of using the OpenAI Function Call model to plan and execute complex workflows.</p>
 
 
-
   
 
 
@@ -1761,7 +1502,6 @@
             </div>
           
           
-<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
       </main>
@@ -1819,7 +1559,7 @@
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs Insiders
+      Material for MkDocs
     </a>
   
 </div>
@@ -1859,10 +1599,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.path", "content.tooltips", "content.code.annotate", "content.code.select", "content.code.copy", "navigation.footer", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f2da59ea.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.path", "content.tooltips", "content.code.annotate", "content.code.select", "content.code.copy", "navigation.footer", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7e51e09.min.js"></script>
+      <script src="../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
     
   </body>
